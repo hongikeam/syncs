@@ -1,4 +1,4 @@
 #!/bin/sh
 
-ln -s bin/ ~/bin
-ln -s dotfiles/.* ~/
+ln -s ~/syncs/bin/ ~/bin
+ln -s ~/syncs/dotfiles/.* ~/
