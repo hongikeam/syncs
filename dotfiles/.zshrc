@@ -46,7 +46,7 @@ source $ZSH/oh-my-zsh.sh
 source ~/.aliases
 
 # Customize to your needs...
-export PATH=/Users/hongikeam/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
+export PATH=~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
 
 export CLICOLOR=1
 export NODE_ENV='development'
