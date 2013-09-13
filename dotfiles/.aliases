@@ -1,4 +1,4 @@
-alias ll='ls -la'
+alias ll='ls -la --color=auto'
 alias grape='ssh hongikeam@grape'
 alias grapet='telnet -l hongikeam grape'
 alias pscp='scp -p -o "ProxyCommand ssh hongikeam@grape nc %h %p"'
