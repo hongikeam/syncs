@@ -35,6 +35,7 @@ set bg=dark
 set exrc
 "set t_Co=256
 set backspace=2	
+"set fileencodings=utf-8
 set fileencodings=utf-8,cp949,euc-kr
 set encoding=utf-8
 set termencoding=utf-8
