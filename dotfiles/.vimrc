@@ -64,6 +64,8 @@ let g:LargeFile=1000
 au BufNewfile,BufRead *.xsp         set filetype=html syntax=aspvbs
 au BufNewfile,BufRead *.xfs         set filetype=javascript
 au BufNewfile,BufRead *.java        set noexpandtab
+au BufNewfile,BufRead *.data        set noexpandtab
+au BufNewfile,BufRead *.dat         set noexpandtab
 
 au FileType c	call SetCol80()
 au FileType cpp call SetCol80()
