@@ -16,6 +16,7 @@ alias hdb2='cssh "hanadmin" "db2"'
 alias hcache='cssh "hanadmin" "cache"'
 alias hnosql='cssh "hanadmin" "nosql"'
 alias htest='cssh "hanadmin" "test"'
+alias tdb='cssh "hanadmin" "tdb"'
 
 alias ns.dev='ssh hongikeam@ns.dev'
 alias ns.master='ssh root@ns.master'
