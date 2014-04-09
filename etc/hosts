@@ -12,11 +12,15 @@
 ::1             localhost 
 fe80::1%lo0	localhost
 
-112.175.24.55 	deploy
-211.233.30.76		grape
-
+# personal
 1.234.79.73     ns.dev ss0.nahsun.kr
 115.68.53.12    ns.master
+
+# works
+211.233.30.76	grape
+211.233.30.77	orange
+10.15.75.14	rime
+10.15.75.13	melon
 
 # hammer
 10.27.40.77   search-hammer-butcher  # vip
@@ -47,15 +51,15 @@ fe80::1%lo0	localhost
 10.27.27.141  search-hammer-dha6
 10.27.27.148  search-hammer-dha7
 10.27.27.76   search-hammer-dha8
-10.27.20.156  search-hammer-ml1 search-hammer-ml1.daum.net 
-10.27.20.219  search-hammer-ml2 search-hammer-ml2.daum.net
-10.27.20.157  search-hammer-ml3 search-hammer-ml3.daum.net
-10.27.20.220  search-hammer-ml4 search-hammer-ml4.daum.net
-10.27.20.158  search-hammer-ml5 search-hammer-ml5.daum.net
-10.27.20.221  search-hammer-ml6 search-hammer-ml6.daum.net
-10.27.20.222  search-hammer-ml7 search-hammer-ml7.daum.net
-10.27.20.159  search-hammer-ml8 search-hammer-ml8.daum.net
-10.27.20.223  search-hammer-ml9 search-hammer-ml9.daum.net
+10.27.20.156  search-hammer-ml1  search-hammer-ml1.daum.net 
+10.27.20.219  search-hammer-ml2  search-hammer-ml2.daum.net
+10.27.20.157  search-hammer-ml3  search-hammer-ml3.daum.net
+10.27.20.220  search-hammer-ml4  search-hammer-ml4.daum.net
+10.27.20.158  search-hammer-ml5  search-hammer-ml5.daum.net
+10.27.20.221  search-hammer-ml6  search-hammer-ml6.daum.net
+10.27.20.222  search-hammer-ml7  search-hammer-ml7.daum.net
+10.27.20.159  search-hammer-ml8  search-hammer-ml8.daum.net
+10.27.20.223  search-hammer-ml9  search-hammer-ml9.daum.net
 10.27.20.224  search-hammer-ml10 search-hammer-ml10.daum.net
 10.27.27.78   search-hammer-test1
 10.27.27.85   search-hammer-test2
@@ -81,6 +85,39 @@ fe80::1%lo0	localhost
 10.27.27.140  search-bloghammer-cache3
 10.27.27.146  search-bloghammer-cache4
 10.27.27.147  search-bloghammer-cache5
+
+10.10.63.45    admin.searchapi.daum.net
+114.108.154.52 stage.music.daum.net
+
+10.30.43.222    search-filter-analyze30
+10.30.43.234    search-filter-analyze31
+10.34.37.34     search-filter-analyze32
+10.34.37.48     search-filter-analyze33
+10.30.43.223    search-filter-analyze34
+10.30.43.235    search-filter-analyze35
+10.34.37.35     search-filter-analyze36
+10.34.37.49     search-filter-analyze37
+10.30.43.224    search-filter-analyze38
+10.30.43.236    search-filter-analyze39
+10.34.37.36     search-filter-analyze40
+10.34.37.50     search-filter-analyze41
+10.30.43.225    search-filter-analyze42
+10.30.43.237    search-filter-analyze43
+10.34.37.37     search-filter-analyze44
+10.34.37.51     search-filter-analyze45
+10.30.43.226    search-filter-analyze46
+10.30.43.238    search-filter-analyze47
+10.34.37.38     search-filter-analyze48
+10.34.37.52     search-filter-analyze49
+10.33.37.113    search-filter-analyze50
+10.33.37.114    search-filter-analyze51
+10.33.37.176    search-filter-analyze52
+10.33.37.177    search-filter-analyze53
+10.33.37.178    search-filter-analyze54
+10.33.37.179    search-filter-analyze55
+10.33.37.241    search-filter-analyze56
+10.33.37.242    search-filter-analyze57
+10.33.37.243    search-filter-analyze58
 
 # news
 10.27.21.41     search-newshammer-cache1
