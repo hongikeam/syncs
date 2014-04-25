@@ -11,6 +11,7 @@ Bundle 'taglist.vim'
 Bundle 'pangloss/vim-javascript'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'groenewege/vim-less'
+Bundle 'altercation/vim-colors-solarized'
 "Bundle 'mjwall/clj-vim'
 filetype plugin indent on     " required!
 
@@ -39,6 +40,9 @@ set backspace=2
 set fileencodings=utf-8,cp949,euc-kr
 set encoding=utf-8
 set termencoding=utf-8
+
+let g:solarized_termcolors=256
+colorscheme solarized
 
 " for comments.
 map f I//<ESC>
