@@ -1,6 +1,3 @@
-# BEGIN hosts added by Network Connect
-211.43.196.168  vpn.daumcorp.com
-# END hosts added by Network Connect
 ##
 # Host Database
 #
@@ -17,4 +14,3 @@ fe80::1%lo0	localhost
 115.68.53.12    ns.master
 
 192.224.222.220 season
-
