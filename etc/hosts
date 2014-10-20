@@ -8,6 +8,7 @@
 255.255.255.255	broadcasthost
 ::1             localhost 
 fe80::1%lo0	localhost
+127.0.0.1       apil.mywish.kr adminl.mywish.kr merchantl.mywish.kr imrl.mywish.kr
 
 # personal
 1.234.79.73     ns.dev ss0.nahsun.kr

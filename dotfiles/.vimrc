@@ -66,6 +66,7 @@ map <F11> :nohl<CR>
 let g:LargeFile=1000
 
 "file type set
+au BufNewfile,BufRead *.py          set ts=4 sts=4 sw=4
 au BufNewfile,BufRead *.xsp         set filetype=html syntax=aspvbs
 au BufNewfile,BufRead *.xfs         set filetype=javascript
 au BufNewfile,BufRead *.java        set noexpandtab
