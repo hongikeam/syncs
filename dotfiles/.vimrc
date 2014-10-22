@@ -1,9 +1,7 @@
 set nocompatible	" Use Vim defaults (much better!)
-"call pathogen#infect()
-"filetype plugin on
 filetype off                   " required!
 set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+call vundle#begin()
 Bundle 'gmarik/vundle'
 Bundle 'derekwyatt/vim-scala'
 Bundle 'gre/play2vim'
@@ -12,7 +10,9 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'groenewege/vim-less'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'tpope/vim-fugitive'
 "Bundle 'mjwall/clj-vim'
+call vundle#end()
 filetype plugin indent on     " required!
 
 syn on
