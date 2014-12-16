@@ -60,21 +60,12 @@ map <F9> :set noai nosi paste<CR>
 map <F10> :set ai si nopaste<CR>
 map <F11> :nohl<CR>
 
-" php는 종료전에 syntax 검사를 한다.
-"au BufWriteCmd *.php :exe "!clear; php -l %"
-
 let g:LargeFile=1000
 
 "file type set
-au BufNewfile,BufRead *.py          set ts=4 sts=4 sw=4
-au BufNewfile,BufRead *.xsp         set filetype=html syntax=aspvbs
-au BufNewfile,BufRead *.xfs         set filetype=javascript
-au BufNewfile,BufRead *.java        set noexpandtab
-au BufNewfile,BufRead *.data        set noexpandtab
-au BufNewfile,BufRead *.dat         set noexpandtab
-
-au FileType c	call SetCol80()
-au FileType cpp call SetCol80()
+au FileType python  setl ts=4 sts=4 sw=4
+au FileType c	    call SetCol80()
+au FileType cpp     call SetCol80()
 
 function! SetCol80()
 	if exists('+colorcolumn')

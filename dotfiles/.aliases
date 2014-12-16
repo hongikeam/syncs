@@ -10,4 +10,7 @@ alias ns.dev='ssh hongikeam@ns.dev'
 alias ns.master='ssh root@ns.master'
 
 alias ec2='ec2.sh'
+alias ec2cp='scp -i ~/works/contextlogickorea.pem'
 alias tmongo='ssh -i ~/works/contextlogickorea.pem -L 27000:mongodb.wish.internal:27017 ec2-user@54.238.143.147'
+
+alias gitdif='git-icdiff'
