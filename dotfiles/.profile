@@ -5,6 +5,7 @@ source ~/.aliases
 export CLICOLOR=1
 export NODE_ENV='development'
 export LANG=en_US.UTF-8
+export EDITOR=vim
 export PYTHONPATH=../wipy:../../wipy
 #export JAVA_HOME=$(/usr/libexec/java_home)
 #export PATH=$JAVA_HOME/bin:$PATH
