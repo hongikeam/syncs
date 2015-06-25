@@ -3,13 +3,13 @@ filetype off                   " required!
 set rtp+=~/.vim/bundle/vundle/
 call vundle#begin()
 Bundle 'gmarik/vundle'
-Bundle 'taglist.vim'
+"Bundle 'taglist.vim'
 Bundle 'pangloss/vim-javascript'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'groenewege/vim-less'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'tpope/vim-fugitive'
-Bundle 'nvie/vim-flake8'
+"Bundle 'nvie/vim-flake8'
 "Bundle 'gre/play2vim'
 "Bundle 'derekwyatt/vim-scala'
 "Bundle 'mjwall/clj-vim'

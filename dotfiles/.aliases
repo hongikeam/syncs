@@ -4,13 +4,10 @@ alias pssh='ssh -A -t hongikeam@grape ssh -A -t'
 alias cssh='csshx --ssh grape.sh --ssh_args'
 alias cssh2='csshx --screen 2 --ssh grape.sh --ssh_args'
 
-alias hvent='cssh "hanadmin" "vent"'
-
-alias ns.dev='ssh hongikeam@ns.dev'
-alias ns.master='ssh root@ns.master'
-
-alias ec2='ec2.sh'
-alias ec2cp='scp -i ~/works/contextlogickorea.pem'
-alias tmongo='ssh -i ~/works/contextlogickorea.pem -L 27000:mongodb.wish.internal:27017 ec2-user@54.238.143.147'
+alias wish='ssh -i ~/works/wish/contextlogickorea.pem -l ec2-user'
+alias wishcp='scp -i ~/works/wish/contextlogickorea.pem -l ec2-user'
+alias bikd='ssh -i ~/works/bikini/bikini-dev.pem -l ec2-user@test.style-shop.me'
+alias bik='ssh -i ~/works/bikini/bikini-dev.pem ec2-user@bastion.style-shop.me'
+alias bikgit='ssh -i ~/works/bikini/vpc-common.pem -l bikini'
 
 alias gitdif='git-icdiff'
