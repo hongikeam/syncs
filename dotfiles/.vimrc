@@ -50,7 +50,8 @@ colorscheme solarized
 
 " powerline
 set laststatus=2
-
+" for macvim
+let &guifont='Meslo LG S for Powerline:h11'
 " airline
 let g:airline_powerline_fonts=1
 let g:airline_extensions=['tabline']
