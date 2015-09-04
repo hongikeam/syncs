@@ -1,4 +1,6 @@
-PATH=~/bin:/usr/local/bin:$PATH
+export GOPATH=$HOME/go
+
+PATH=~/bin:/usr/local/bin:/usr/local/opt/go/libexec/bin:$GOPATH/bin:$PATH
 
 source ~/.aliases
 

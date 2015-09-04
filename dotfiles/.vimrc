@@ -9,6 +9,8 @@ Bundle 'digitaltoad/vim-jade'
 Bundle 'groenewege/vim-less'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'tpope/vim-fugitive'
+Bundle 'bling/vim-airline'
+Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 "Bundle 'nvie/vim-flake8'
 "Bundle 'gre/play2vim'
 "Bundle 'derekwyatt/vim-scala'
@@ -35,15 +37,24 @@ set noerrorbells
 set novisualbell
 set bg=dark
 set exrc
-"set t_Co=256
+set t_Co=256
 set backspace=2	
 "set fileencodings=utf-8
 set fileencodings=utf-8,cp949,euc-kr
 set encoding=utf-8
 set termencoding=utf-8
 
+" theme
 let g:solarized_termcolors=256
 colorscheme solarized
+
+" powerline
+set laststatus=2
+
+" airline
+let g:airline_powerline_fonts=1
+let g:airline_extensions=['tabline']
+let g:airline#extensions#tabline#enabled=1
 
 " for comments.
 map f I//<ESC>
