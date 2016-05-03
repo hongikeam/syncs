@@ -1,16 +1,20 @@
 set nocompatible	" Use Vim defaults (much better!)
 filetype off                   " required!
+execute pathogen#infect()
 set rtp+=~/.vim/bundle/vundle/
 call vundle#begin()
 Bundle 'gmarik/vundle'
-"Bundle 'taglist.vim'
 Bundle 'pangloss/vim-javascript'
-Bundle 'digitaltoad/vim-jade'
 Bundle 'groenewege/vim-less'
+Bundle 'fatih/vim-go'
+Bundle 'leafgarland/typescript-vim'
+let go_fmt_fail_silently = 1
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'tpope/vim-fugitive'
-Bundle 'bling/vim-airline'
-Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+"Bundle 'digitaltoad/vim-jade'
+"Bundle 'taglist.vim'
+"Bundle 'tpope/vim-fugitive'
+"Bundle 'bling/vim-airline'
+"Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 "Bundle 'nvie/vim-flake8'
 "Bundle 'gre/play2vim'
 "Bundle 'derekwyatt/vim-scala'
@@ -21,10 +25,9 @@ filetype plugin indent on     " required!
 syn on
 set nu
 set ai
-"set ts=2 sts=2 sw=2 noexpandtab
 set ts=2 sts=2 sw=2 expandtab
 set showmatch
-set mouse=a 
+"set mouse=a 
 set title
 set incsearch hlsearch
 "set cinoptions={s,>2s,n-s,^-s
@@ -48,14 +51,25 @@ set termencoding=utf-8
 let g:solarized_termcolors=256
 colorscheme solarized
 
+" syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_javascript_checkers = ["eslint"]
+let g:syntastic_javascript_eslint_exec = 'eslint_d'
+
 " powerline
-set laststatus=2
+"set laststatus=2
 " for macvim
-let &guifont='Meslo LG S for Powerline:h11'
+"let &guifont='Meslo LG S for Powerline:h11'
 " airline
-let g:airline_powerline_fonts=1
-let g:airline_extensions=['tabline']
-let g:airline#extensions#tabline#enabled=1
+"let g:airline_powerline_fonts=1
+"let g:airline_extensions=['tabline']
+"let g:airline#extensions#tabline#enabled=1
 
 " for comments.
 map f I//<ESC>
@@ -76,7 +90,10 @@ map <F11> :nohl<CR>
 let g:LargeFile=1000
 
 "file type set
+au FileType go  setl ts=4 sts=4 sw=4
 au FileType python  setl ts=4 sts=4 sw=4
+"au FileType javascript  setl ts=4 sts=4 sw=4
+au FileType php  setl ts=4 sts=4 sw=4
 au FileType c	    call SetCol80()
 au FileType cpp     call SetCol80()
 
