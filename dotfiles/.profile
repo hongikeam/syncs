@@ -4,6 +4,10 @@ PATH=~/bin:/usr/local/bin:/usr/local/opt/go/libexec/bin:$GOPATH/bin:$PATH
 
 source ~/.aliases
 
+# for nvm
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
 export CLICOLOR=1
 export NODE_ENV='development'
 export LANG=en_US.UTF-8
