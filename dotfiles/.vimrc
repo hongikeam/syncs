@@ -8,9 +8,10 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'groenewege/vim-less'
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'tpope/vim-fugitive'
-Bundle 'bling/vim-airline'
-Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+Bundle 'leafgarland/typescript-vim'
+"Bundle 'tpope/vim-fugitive'
+"Bundle 'bling/vim-airline'
+"Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 "Bundle 'nvie/vim-flake8'
 "Bundle 'gre/play2vim'
 "Bundle 'derekwyatt/vim-scala'
@@ -24,7 +25,7 @@ set ai
 "set ts=2 sts=2 sw=2 noexpandtab
 set ts=2 sts=2 sw=2 expandtab
 set showmatch
-set mouse=a 
+"set mouse=a 
 set title
 set incsearch hlsearch
 "set cinoptions={s,>2s,n-s,^-s
