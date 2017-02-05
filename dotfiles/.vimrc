@@ -49,26 +49,6 @@ set termencoding=utf-8
 let g:solarized_termcolors=256
 colorscheme solarized
 
-" syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_javascript_checkers = ["eslint"]
-let g:syntastic_javascript_eslint_exec = 'eslint_d'
-
-" powerline
-"set laststatus=2
-" for macvim
-"let &guifont='Meslo LG S for Powerline:h11'
-" airline
-"let g:airline_powerline_fonts=1
-"let g:airline_extensions=['tabline']
-"let g:airline#extensions#tabline#enabled=1
-
 " for comments.
 map f I//<ESC>
 map F ^2x

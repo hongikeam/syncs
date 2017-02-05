@@ -1,22 +1,11 @@
-export GOPATH=$HOME/go
-
-PATH=~/bin:/usr/local/bin:/usr/local/opt/go/libexec/bin:$GOPATH/bin:$PATH
+PATH=~/bin:/usr/local/bin:$PATH
 
 source ~/.aliases
 
 # for nvm
 export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
+source $NVM_DIR/nvm.sh
 
 export CLICOLOR=1
-export NODE_ENV='development'
 export LANG=en_US.UTF-8
 export EDITOR=vim
-#export JAVA_HOME=$(/usr/libexec/java_home)
-#export PATH=$JAVA_HOME/bin:$PATH
-#export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home
-
-#eval "$(rbenv init -)"
-
-#export NVM_DIR=~/.nvm
-#. $(brew --prefix nvm)/nvm.sh
