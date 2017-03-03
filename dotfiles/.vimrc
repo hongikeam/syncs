@@ -1,22 +1,11 @@
 set nocompatible	" Use Vim defaults (much better!)
 filetype off                   " required!
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#begin()
 Bundle 'gmarik/vundle'
 Bundle 'pangloss/vim-javascript'
-Bundle 'groenewege/vim-less'
-"Bundle 'fatih/vim-go'
 Bundle 'leafgarland/typescript-vim'
 Bundle 'altercation/vim-colors-solarized'
-"Bundle 'digitaltoad/vim-jade'
-"Bundle 'taglist.vim'
-"Bundle 'tpope/vim-fugitive'
-"Bundle 'bling/vim-airline'
-"Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
-"Bundle 'nvie/vim-flake8'
-"Bundle 'gre/play2vim'
-"Bundle 'derekwyatt/vim-scala'
-"Bundle 'mjwall/clj-vim'
 call vundle#end()
 filetype plugin indent on     " required!
 
